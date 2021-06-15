@@ -1,12 +1,12 @@
 # Project Title : sdfsf
             
-          ## Description
+  ## Description
             sdfsd
 
-          ## Table of Contents 
-          * [Installation](#installation)
-          * [Usage](#usage)
-          * [Credits](#credits)
+  ## Table of Contents 
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Credits](#credits)
           
        * [License](#license)
   
@@ -16,7 +16,7 @@
   dsfds
 
   
-      ## license
+# license
       MIT
   
 
