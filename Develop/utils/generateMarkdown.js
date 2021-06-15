@@ -37,15 +37,35 @@ function generateMarkdown(data) {
     ## Table of Contents
       * [Installation](#installation)
       * [Usage](#usage)
-      * [Credits](#credits)
      ${renderLicenseLink(data.license)}
-          
+      * [Contributing](#contributing)
+      * [Tests](#tests)
+      * [Questions](#questions)
+
+     ## Installation
 
 
-    ${data.github}
+
+     ## Usage
+
+
 
 ${renderLicenseBadge(data.license) }
 
+
+
+     ## Contributing
+
+
+
+     ## Tests
+
+
+
+     ## Questions
+
+     
+${data.github}
 `;
 }
 
