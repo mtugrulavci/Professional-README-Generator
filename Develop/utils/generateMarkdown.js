@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
     return '';
   }
   return `
-      ## License
+      ## license
       ${license}
   `;
 }
