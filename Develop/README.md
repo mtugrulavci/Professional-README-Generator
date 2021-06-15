@@ -1,8 +1,8 @@
 
-  # Project Title :
-      potential-enigma
+  # chalk.blue(Project Title :)
+      DFSFS
   ## Description
-      it creates professional README files.
+      SDFSDF
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,7 +15,7 @@
   * [Questions](#questions)
 
   ## Installation
-     npm i inquirer 
+     SDFS
 
   ## Usage
 
@@ -32,7 +32,7 @@
 
 
   ## Contributing
-   Contact with the Author
+   SDFSDF
 
 
   ## Tests
@@ -41,10 +41,11 @@
 
   ## Questions
   Github User Name
-  [README GENERATOR](https://github.com/README GENERATOR)
+
+  [DSFDS](https://github.com/DSFDS)
 
   Email Address :
-  mtugrulavci@hotmail.com	
+  SFDSD
 
 
 
