@@ -1,8 +1,8 @@
 
   # Project Title :
-      SDFSDF
+      potential-enigma
   ## Description
-      DSFS
+      it creates professional README files.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,7 +15,7 @@
   * [Questions](#questions)
 
   ## Installation
-
+     npm i inquirer 
 
   ## Usage
 
@@ -32,7 +32,7 @@
 
 
   ## Contributing
-
+   Contact with the Author
 
 
   ## Tests
@@ -40,9 +40,11 @@
 
 
   ## Questions
-  [SFSDF](https://github.com/SFSDF)
+  Github User Name
+  [README GENERATOR](https://github.com/README GENERATOR)
 
-     Email Address :SDFSDF
+  Email Address :
+  mtugrulavci@hotmail.com	
 
 
 

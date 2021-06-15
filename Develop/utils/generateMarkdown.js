@@ -72,7 +72,7 @@ function generateMarkdown(data) {
   * [Questions](#questions)
 
   ## Installation
-
+     ${data.dependencies}
 
   ## Usage
 
@@ -83,7 +83,7 @@ ${renderLicenseSection(data.license) }
 
 
   ## Contributing
-
+   ${data.contributing}
 
 
   ## Tests
@@ -91,9 +91,11 @@ ${renderLicenseSection(data.license) }
 
 
   ## Questions
+  Github User Name
   [${data.github}](https://github.com/${data.github})
 
-     Email Address :${data.email}
+  Email Address :
+  ${data.email}
 
 
 

@@ -64,6 +64,16 @@ const questions = [
         message: 'Please indicate your license type?',
         choices: ['None','MIT', 'ISC', 'IBM','Mozilla Public License 2.0']
       },
+    {
+        type: 'input',
+        name: 'dependencies',
+        message: 'Please indicate dependencies that should be installed'
+      },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'What should we do to contribute to the repo?'
+      },
       {
         type: 'input',
         name: 'need to know',
