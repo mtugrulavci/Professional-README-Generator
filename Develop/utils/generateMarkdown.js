@@ -31,21 +31,21 @@ function generateMarkdown(data) {
   return `
   # Project Title : ${data.projectName}
             
-    ## Description
+  ## Description
       ${data.description}
 
-    ## Table of Contents
-      * [Installation](#installation)
-      * [Usage](#usage)
+  ## Table of Contents
+    * [Installation](#installation)
+    * [Usage](#usage)
      ${renderLicenseLink(data.license)}
-      * [Contributing](#contributing)
-      * [Tests](#tests)
-      * [Questions](#questions)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
 
-     ## Installation
+  ## Installation
 
 
-     ## Usage
+  ## Usage
 
 
 
@@ -53,15 +53,15 @@ ${renderLicenseBadge(data.license) }
 
 
 
-     ## Contributing
+  ## Contributing
 
 
 
-     ## Tests
+  ## Tests
 
 
 
-     ## Questions
+  ## Questions
 
 
 ${data.github}
