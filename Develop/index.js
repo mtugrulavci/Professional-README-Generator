@@ -34,7 +34,7 @@ const questions = [
     },      
     {
       type: 'input',
-      name: 'project name',
+      name: 'projectName',
       message: 'What is your project"s name? (Required)',
       validate: nameInput => {
         if (nameInput) {
@@ -75,7 +75,12 @@ const init = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const   fileName =  'README.md';
+function writeToFile(fileName, data) {
+
+  fs.writeFile(fileName, generateMarkdown(data), err => {
+    if (err) throw err;});
+}
 
 // TODO: Create a function to initialize app
 //function init() {}
@@ -83,9 +88,8 @@ function writeToFile(fileName, data) {}
 // Function call to initialize app
 init().then(function(data) {
     console.log(data)
-    fs.writeFile('index.html', generateMarkdown(data), err => {
-        if (err) throw err;
+    writeToFile(fileName, data);
       
         console.log('Portfolio complete! Check out index.html to see the output!');
-      });
+      
 });
