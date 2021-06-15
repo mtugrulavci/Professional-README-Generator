@@ -58,12 +58,12 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  chalk.blue( # Project Title :)
+  # Project Title :
       ${data.projectName}
-  chalk.blue(## Description)
+  ## Description
       ${data.description}
 
-  chalk.blue(## Table of Contents)
+  ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
      ${renderLicenseLink(data.license)}
@@ -71,10 +71,10 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
 
-  chalk.blue( ## Installation)
+  ## Installation
 
 
-  chalk.blue(## Usage)
+  ## Usage
 
 
 
@@ -82,18 +82,20 @@ ${renderLicenseSection(data.license) }
 
 
 
-chalk.blue(## Contributing)
+  ## Contributing
 
 
 
-chalk.blue(## Tests)
+  ## Tests
 
 
 
-chalk.blue(## Questions)
+  ## Questions
+   ${data.github}
+   ${data.email}
 
 
-${data.github}
+
 `;
 }
 
