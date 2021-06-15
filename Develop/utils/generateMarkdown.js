@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
     return '';
   }
   return `
-      ## License
+  ## License
       ${license}
   `;
 }
@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
     return '';
   }
   return `
-       * [License](#license)
+  * [License](#license)
   `;
 }
 
@@ -38,7 +38,7 @@ function generateMarkdown(data) {
       * [Installation](#installation)
       * [Usage](#usage)
       * [Credits](#credits)
-    ${renderLicenseLink(data.license)}
+     ${renderLicenseLink(data.license)}
           
 
 
