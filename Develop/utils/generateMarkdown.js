@@ -45,7 +45,6 @@ function generateMarkdown(data) {
      ## Installation
 
 
-
      ## Usage
 
 
@@ -64,7 +63,7 @@ ${renderLicenseBadge(data.license) }
 
      ## Questions
 
-     
+
 ${data.github}
 `;
 }
