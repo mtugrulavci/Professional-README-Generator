@@ -1,3 +1,5 @@
+const chalk = require('chalk');
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -5,11 +7,25 @@ function renderLicenseBadge(license) {
     return '';
   }
   if (license === "MIT") {
-    return   `
-   
+    return   `  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-    `
+   `
     ;
+  }
+  if (license === "ISC") {
+    return   `   
+  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+   `   ;
+  }
+  if (license === "IBM") {
+    return   `   
+  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+   `   ;
+  }
+  if (license === "Mozilla Public License 2.0") {
+    return   `   
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+   `   ;
   }
 }
 
@@ -42,12 +58,12 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # Project Title :
+  chalk.blue( # Project Title :)
       ${data.projectName}
-  ## Description
+  chalk.blue(## Description)
       ${data.description}
 
-  ## Table of Contents
+  chalk.blue(## Table of Contents)
   * [Installation](#installation)
   * [Usage](#usage)
      ${renderLicenseLink(data.license)}
@@ -55,10 +71,10 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
 
-  ## Installation
+  chalk.blue( ## Installation)
 
 
-  ## Usage
+  chalk.blue(## Usage)
 
 
 
@@ -66,15 +82,15 @@ ${renderLicenseSection(data.license) }
 
 
 
-  ## Contributing
+chalk.blue(## Contributing)
 
 
 
-  ## Tests
+chalk.blue(## Tests)
 
 
 
-  ## Questions
+chalk.blue(## Questions)
 
 
 ${data.github}

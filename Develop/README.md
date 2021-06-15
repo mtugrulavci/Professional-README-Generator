@@ -1,10 +1,10 @@
 
-  # Project Title :
-      DSGHDS
-  ## Description
-      SDGS
+  chalk.blue( # Project Title :)
+      SDFSD
+  chalk.blue(## Description)
+      SFSD
 
-  ## Table of Contents
+  chalk.blue(## Table of Contents)
   * [Installation](#installation)
   * [Usage](#usage)
      
@@ -14,33 +14,32 @@
   * [Tests](#tests)
   * [Questions](#questions)
 
-  ## Installation
+  chalk.blue( ## Installation)
 
 
-  ## Usage
+  chalk.blue(## Usage)
 
 
 
 
   ## License
-      
+         
+  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
    
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-    
-      MIT
+      ISC
   
 
 
 
-  ## Contributing
+chalk.blue(## Contributing)
 
 
 
-  ## Tests
+chalk.blue(## Tests)
 
 
 
-  ## Questions
+chalk.blue(## Questions)
 
 
-TGHDF
+DSFSD

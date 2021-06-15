@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const chalk = require('chalk');
+
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
@@ -62,7 +62,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please indicate your license type?',
-        choices: ['None','MIT', 'The unlicense', 'Mozilla Public License 2.0']
+        choices: ['None','MIT', 'ISC', 'IBM','Mozilla Public License 2.0']
       },
       {
         type: 'input',
