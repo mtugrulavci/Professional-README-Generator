@@ -91,8 +91,9 @@ ${renderLicenseSection(data.license) }
 
 
   ## Questions
-   ${data.github}
-   ${data.email}
+     ###${data.github}
+
+     ###${data.email}
 
 
 
