@@ -1,6 +1,8 @@
-const chalk = require('chalk');
 
 // TODO: Create a function that returns a license badge based on which license is passed in
+
+const chalk = require("chalk");
+
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "None") {
@@ -97,10 +99,11 @@ ${renderLicenseSection(data.license) }
 
   Email Address :
   ${data.email}
+    ${chalk.blue('testttttttt')}
 
 
+`
 
-`;
 }
 
 module.exports = generateMarkdown;

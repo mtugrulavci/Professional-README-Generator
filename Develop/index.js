@@ -1,4 +1,5 @@
 // TODO: Include packages needed for this application
+const chalk = require('chalk');
 const fs = require('fs');
 const inquirer = require('inquirer');
 
@@ -100,6 +101,6 @@ init().then(function(data) {
     console.log(data)
     writeToFile(fileName, data);
       
-        console.log('Generating the README file ... !');
+        console.log(chalk.blue('Generating the README file ... !'));
       
 });
