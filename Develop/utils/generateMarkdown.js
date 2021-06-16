@@ -95,8 +95,8 @@ ${renderLicenseSection(data.license) }
 
   [${data.github}](https://github.com/${data.github})
 
-  Email Address :
-  ${chalk.blue (data.email)}
+  ${chalk.blue("Email Address :")}
+  ${data.email}
 
 
 
