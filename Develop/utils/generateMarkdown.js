@@ -58,7 +58,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # chalk.blue(Project Title :)
+  # Project Title :
       ${data.projectName}
   ## Description
       ${data.description}
@@ -96,7 +96,7 @@ ${renderLicenseSection(data.license) }
   [${data.github}](https://github.com/${data.github})
 
   Email Address :
-  ${data.email}
+  ${chalk.blue (data.email)}
 
 
 
