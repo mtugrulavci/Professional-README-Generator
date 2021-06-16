@@ -75,7 +75,7 @@ function generateMarkdown(data) {
      ${data.dependencies}
 
   ## Usage
-
+  ${chalk.yellow("TEST YELLOW")}
 
 
 ${renderLicenseSection(data.license) }
@@ -91,11 +91,11 @@ ${renderLicenseSection(data.license) }
 
 
   ## Questions
-  Github User Name
+  Github User Name:
 
   [${data.github}](https://github.com/${data.github})
 
-  ${chalk.blue("Email Address :")}
+  Email Address :
   ${data.email}
 
 
