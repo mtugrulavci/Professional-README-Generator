@@ -82,6 +82,11 @@ const questions = [
       }
   ];
 const init = () => {
+  console.log(chalk.bold.rgb(10, 100, 200)`
+  =================
+  Add a New Project
+  =================
+  `);
     return inquirer.prompt(questions);
 };
 

@@ -1,8 +1,8 @@
 
-  # Project Title :
-      ergerwwe
+  # Project Title : Project-enigma
+      
   ## Description
-      regwegrwe
+      this is a project that generates professional README file.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,10 +15,10 @@
   * [Questions](#questions)
 
   ## Installation
-     ergwe
+     npm install, npm i inquirer
 
   ## Usage
-  [33mTEST YELLOW[39m
+
 
 
 
@@ -32,7 +32,8 @@
 
 
   ## Contributing
-   ergewgwe
+
+   Please contact with the author before the contribution
 
 
   ## Tests
@@ -42,10 +43,12 @@
   ## Questions
   Github User Name:
 
-  [sedgfedfrg](https://github.com/sedgfedfrg)
+  [mtugrulavci](https://github.com/mtugrulavci)
 
   Email Address :
-  redgwergh
-    [34mtestttttttt[39m
+
+  mtugrulavci
+ 
+  Please contact with the author before the contribution
 
 
