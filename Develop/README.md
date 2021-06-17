@@ -1,8 +1,8 @@
 
-  # Project Title : Project-enigma
+  # Project Title : Professional Readme File Generator
       
   ## Description
-      this is a project that generates professional README file.
+      This application creates professional README file for your application.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -33,7 +33,7 @@
 
   ## Contributing
 
-   Please contact with the author before the contribution
+   Please contact with the author via email
 
 
   ## Tests
@@ -41,14 +41,11 @@
 
 
   ## Questions
-  Github User Name:
+  Github User Name:  [mtugrulavci](https://github.com/mtugrulavci)
 
-  [mtugrulavci](https://github.com/mtugrulavci)
-
-  Email Address :
-
-  mtugrulavci
+  
+  Email Address :   mtugrulavci@hotmail.com
  
-  Please contact with the author before the contribution
+  Please contact with the author via email
 
 

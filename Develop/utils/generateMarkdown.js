@@ -94,13 +94,10 @@ ${renderLicenseSection(data.license) }
 
 
   ## Questions
-  Github User Name:
+  Github User Name:  [${data.github}](https://github.com/${data.github})
 
-  [${data.github}](https://github.com/${data.github})
-
-  Email Address :
-
-  ${data.email}
+  
+  Email Address :   ${data.email}
  
   ${data.contributing}
 
